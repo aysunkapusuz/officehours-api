@@ -12,14 +12,6 @@ const tea = {
         'caffinated': true,
         'flavor': 'delicious'
     },
-    'unknown':{
-        'type': 'unknown',
-        'origin': 'unknown',
-        'waterTemp': 200,
-        'steepTimeSeconds': 1800,
-        'caffinated': true,
-        'flavor': 'unknown'
-    },
     'matcha':{
         'type': 'green',
         'origin': 'Yo mommas House',
@@ -27,7 +19,16 @@ const tea = {
         'steepTimeSeconds': 1800,
         'caffinated': false,
         'flavor': 'delicious'
+    },
+    'unknown':{
+        'type': 'unknown',
+        'origin': 'unknown',
+        'waterTemp': 200,
+        'steepTimeSeconds': 1800,
+        'caffinated': true,
+        'flavor': 'unknown'
     }
+    
 
 }
 
